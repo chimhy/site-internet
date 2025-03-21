@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andrew - Portfolio</title>
+  <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+
+  <!-- Burger Menu -->
+  <nav>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <ul class="nav-links">
+        <li><a href="accueil.html">Accueil</a></li>
+        
+    </ul>
+</nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Andrew-Maurice GOMA</h1>
+  </div>
+
+  <!-- About Section -->
+  <section class="about hidden">
+    <h2>A Propos de moi</h2>
+    <p>
+      Je suis un professionnel passionné qui se consacre à avoir un impact dans mon domaine.
+    </p>
+  </section>
+
+  <!-- Portfolio Filter Buttons -->
+  <section class="filter-buttons">
+    <button class="filter-btn active" data-filter="all">Tout</button>
+    <button class="filter-btn" data-filter="associative">Activité Associative</button>
+    <button class="filter-btn" data-filter="sport">Sport</button>
+    <button class="filter-btn" data-filter="work">Chantier</button>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio hidden">
+    <h2>MON PORTFOLIO</h2>
+
+    <div class="portfolio-item associative show">
+      <img src="A1.jpg" alt="Activité Associative">
+      <div class="portfolio-text">
+        <h3>ACTIVITÉ ASSOCIATIVE</h3>
+        <p>J'ai participé au projet "Virvolt at
+          Stant-Deamicita, Spring 2022" en
+          Espagne, du 23 avril au 7 mai 2022, dans
+          le cadre du Corps Européen de Solidarité.
+          J'ai contribué à la préservation de la
+          biodiversité en travaillant avec des
+          abeilles, peint une maison de retraite et
+          fabriqué des meubles éco-responsables.
+          J'ai aidé à la communication de
+          l’association via les réseaux sociaux et
+          organisé une exposition finale. J'ai aussi
+          coordonné la vie collective, animé des
+          activités culturelles et assuré des
+          traductions pour faciliter les échanges
+          interculturels. Cette expérience m'a
+          permis de développer des compétences
+          en communication, gestion d’équipe,
+          numérique et engagement citoyen.</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item sport show">
+      <img src="A2.jpg" alt="Passionné de Sport">
+      <div class="portfolio-text">
+        <h3>PASSIONNÉ DE SPORT</h3>
+        <p>Passionné de sport, en particulier
+          de football et de course à pied,
+          j’aime analyser les performances
+          des athlètes et suivre les grandes
+          compétitions. Que ce soit
+          l’intensité d’un match décisif ou
+          l’endurance d’un marathonien,
+          chaque discipline m’inspire par son
+          exigence et ses valeurs. J’apprécie
+          débattre des tactiques, des records
+          et des exploits sportifs, tout en
+          partageant mon enthousiasme
+          pour ces disciplines qui allient
+          stratégie, dépassement de soi et
+          esprit d’équipe.</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item work show">
+      <img src="A3.jpg" alt="Travail dans un Chantier">
+      <div class="portfolio-text">
+        <h3>TRAVAIL DANS UN CHANTIER</h3>
+        <p>J'ai participé à un chantier où j'ai
+          contribué à diverses tâches
+          manuelles et collectives. J'ai aidé à
+          la construction et à la rénovation
+          d’infrastructures en utilisant des
+          matériaux recyclés. J'ai également
+          pris part à l’organisation de la vie
+          collective en gérant la logistique, la
+          cuisine et l’entretien des espaces
+          communs. Cette expérience m’a
+          permis de développer des
+          compétences en travail d’équipe,
+          en gestion de projet et en
+          adaptation à un environnement
+          dynamique.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume & Contact Buttons -->
+  <section class="buttons">
+    <a href="andrewcv.pdf" class="btn">CV</a>
+    <a href="contact.html" class="btn">Contact</a>
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

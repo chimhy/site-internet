@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andrew - Portfolio</title>
+  <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+
+  <!-- Burger Menu -->
+  <nav>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <ul class="nav-links">
+        <li><a href="accueil.html">Accueil</a></li>
+        
+    </ul>
+</nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>MOUNGONDO-BABOU Murphy</h1>
+  </div>
+
+  <!-- About Section -->
+  <section class="about hidden">
+    <h2>A Propos de moi</h2>
+    <p>
+      Je suis un professionnel passionné qui se consacre à avoir un impact dans mon domaine.
+    </p>
+  </section>
+
+  <!-- Portfolio Filter Buttons -->
+  <section class="filter-buttons">
+    <button class="filter-btn active" data-filter="all">Tout</button>
+    <button class="filter-btn" data-filter="associative">Activités</button>
+    <button class="filter-btn" data-filter="sport">Expériences</button>
+    <button class="filter-btn" data-filter="work">Passions</button>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio hidden">
+    <h2>MON PORTFOLIO</h2>
+
+    <div class="portfolio-item associative show">
+      <img src="M1.jpg" alt="Activité Associative">
+      <div class="portfolio-text">
+        <h3>PASSIONNÉ DE SPORT</h3>
+        <p>Passionné de sport, j’aime suivre et
+          pratiquer différentes disciplines,
+          analyser les performances et vibrer
+          au rythme des grandes
+          compétitions. Le sport représente
+          pour moi le dépassement de soi, la
+          discipline et l’esprit d’équipe. Que
+          ce soit sur le terrain ou en tant que
+          spectateur, je trouve une source
+          d’inspiration et de motivation dans
+          l’effort et la passion des athlètes.</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item sport show">
+      <img src="M2.jpg" alt="Passionné de Sport">
+      <div class="portfolio-text">
+        <h3>ALTERNANT CYBERSÉCURITÉ</h3>
+        <p>En tant qu’alternant en
+          cybersécurité, j’acquiers une
+          expertise en protection des
+          systèmes, analyse des menaces et
+          gestion des vulnérabilités. Je
+          participe à la mise en place de
+          solutions de sécurité, aux audits et
+          à la surveillance des
+          infrastructures. Cette expérience
+          en entreprise me permet de
+          développer des compétences
+          techniques et stratégiques tout en
+          m’adaptant aux défis du secteur..</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item work show">
+      <img src="M3.jpg" alt="Travail dans un Chantier">
+      <div class="portfolio-text">
+        <h3>PASSIONNÉ DE CINÉMA</h3>
+        <p>Passionné de cinéma, j’aime
+          explorer une grande diversité de
+          genres, analyser la mise en scène,
+          le scénario et le jeu des acteurs. Le
+          septième art me fascine par sa
+          capacité à raconter des histoires,
+          transmettre des émotions et
+          refléter les enjeux de notre société.
+          Chaque film est pour moi une
+          source d’inspiration et d’évasion,
+          nourrissant ma curiosité et mon
+          regard critique.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume & Contact Buttons -->
+  <section class="buttons">
+    <a href="murphycv.pdf" class="btn">CV</a>
+    <a href="contact.html" class="btn">Contact</a>
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

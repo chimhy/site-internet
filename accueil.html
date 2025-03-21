@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vitrine Collaborative</title>
+  <link rel="stylesheet" href="acceuil.css">
+  <link rel="stylesheet" href="burger.css">
+  <link rel="stylesheet" href="script.js">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Burger Menu -->
+  <header>
+    <button class="menus-button" onclick="toggleMenus()">☰ Menu</button>
+    <div class="menus" id="menus">
+      <a href="./accueil.html" onclick="closeMenu()">ACCEUIL</a>
+      <a href="./accueil.html" onclick="closeMenu()">CV</a>
+      <a href="contact.html" onclick="closeMenu()">CONTACT</a>
+    </div>            
+  </header>
+
+  <!-- Page Title -->
+  <headers>
+    <h1>Bienvenue sur notre page collaborative !</h1>
+    <p>Découvrez nos parcours, nos projets et nos talents.</p>
+  </headers>
+
+  <!-- Profiles Section -->
+  <section class="profiles">
+    <div class="profile-card">
+      <img src="M1.jpg" alt="Photo 1">
+      <h3><a href="murphy.html">Murphy</a></h3>
+    </div>
+
+    <div class="profile-card">
+      <img src="D1.jpg" alt="Photo 2">
+      <h3><a href="dylan.html">Dylan</a></h3>
+    </div>
+
+    <div class="profile-card">
+      <img src="B1.jpg" alt="Photo 3">
+      <h3><a href="benaja.html">Benaja</a></h3>
+    </div>
+
+    <div class="profile-card">
+      <img src="A1.jpg" alt="Photo 4">
+      <h3><a href="andrew.html">Andrew</a></h3>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

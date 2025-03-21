@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: #f8fafc;
+    margin: 0;
+    padding: 0;
+}
+
+/* Burger Menu */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.menu-toggle {
+    font-size: 2rem;
+    cursor: pointer;
+    color: #60a5fa;
+    display: block;
+}
+
+.nav-links {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background: rgba(15, 23, 42, 0.9);
+    padding: 15px;
+    border-radius: 10px;
+    list-style: none;
+}
+
+.nav-links.active {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nav-links li {
+    padding: 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #f8fafc;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #60a5fa;
+}
+
+/* Contact Form */
+.contact-form {
+    max-width: 500px;
+    margin: 30px auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #f8fafc;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #cbd5e1;
+}
+
+.contact-form button {
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(90deg, #3b82f6, #60a5fa);
+    border-radius: 30px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background: linear-gradient(90deg, #2563eb, #3b82f6);
+}
+
+/* Fade-in animation */
+.hidden {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}

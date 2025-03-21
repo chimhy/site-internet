@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez Nous</title>
+    <link rel="stylesheet" href="contact.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Burger Menu -->
+    <nav>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul class="nav-links">
+            <li><a href="accueil.html">Accueil</a></li>
+            
+        </ul>
+    </nav>
+
+    <h1>Contactez-nous</h1>
+
+    <!-- Contact Form -->
+    <div class="contact-form">
+        <form id="contactForm">
+            <label for="prenom">Prénom</label>
+            <input type="text" id="prenom" name="prenom" placeholder="Ali" required>
+
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" placeholder="Pineda" required>
+
+            <label for="email">Adresse Mail</label>
+            <input type="email" id="email" name="email" placeholder="hello@alipinedacreate.com" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Écrivez votre message ici..." required></textarea>
+
+            <button type="submit" id="submitButton" disabled>Envoyer</button>
+        </form>
+    </div>
+
+    <script src="contact.js"></script>
+
+</body>
+</html>
